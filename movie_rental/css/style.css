@@ -1,0 +1,284 @@
+
+/*Universal Styling Start*/
+/*.switch_customer_info{
+    margin-right: : 30px;
+}*/
+#submit_customer_info{
+    margin-left: 30px;
+}
+.text-white {
+    color: #fff;
+}
+.text-hover-white:hover{
+    color: #fff;
+}
+/*for non-index page: login_failed, message_received, movie_downloading*/
+#message {
+    line-height: 140%;
+}
+#my_account_info h5, #my_account_info label{
+    font-size: 16px;
+}
+main{
+    margin-top: 70px; 
+    position: relative;  
+}
+h1 {
+    margin-top: 0px;
+
+}
+h4 {
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: none;
+}
+img{
+    margin-bottom: 15px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+    
+}
+
+.list-group {
+    list-style-type: none;
+}
+
+.navbar-default .navbar-nav >li>a{
+    color:#337ab7;
+}
+
+
+footer{
+    background-color: #337ab7;
+    color: white;
+}
+footer a {
+    color: #fff;
+}
+footer a:hover{
+    color: #f6b237;
+}
+/*Universal Styling End*/
+
+
+/*Login Form Start*/
+.checkbox label{
+    font-size: 0.8em;
+    padding-left: 0;
+}
+/*Login Form Start*/
+
+
+/*Sign in Form Start*/
+.help-block{
+    font-size: 0.8em;
+}
+/*Sign in Form End*/
+
+
+
+/* Search End Start */
+#search_bar {
+    margin-bottom: 0;
+
+}
+
+#search_bar input[type="text"]{
+    width: 100%;
+    border: 1px solid #ddd;
+    outline: none;
+    background: #fff;
+    padding: 22px 18px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #333;
+    /*margin-top: 20px;*/
+}
+#search_bar input[type="text"]:hover{
+    background: #eee;
+}
+
+.glyphicon-search{
+    font-size: 27px;
+}
+
+
+/* Search Bar End */
+
+
+/*Contact Form Start */
+label {
+    margin: 0;
+    font-size: 1em;
+    color:#34353a;
+    margin-bottom: 0.3em;
+}
+
+
+#contact_form input[type="text"], 
+#contact_form input[type="email"], 
+#contact_form input[type="tel"], 
+#contact_form textarea {
+    width: 100%;
+    border: 1px solid #ddd;
+    outline: none;
+    background: #fff;
+    padding: 10px 18px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #333;
+    margin: 0px 0 10px 0;
+    float:left;
+}
+
+#contact_form textarea {
+    height: 197px;
+    margin: 0em 0 1em 0;
+}
+#contact_form input[type="submit"] {
+    outline: none;
+    padding: 0.7em 0.7em;
+    color: #fff;
+    background: #539fd6;
+    text-transform: uppercase;
+    font-weight:500;
+    font-size: 0.95em;
+    display: block;
+    width: 40%;
+    border: none;
+    float: right;
+}
+
+#contact_form input:hover, 
+/*#contact_form input[type="email"]:hover, 
+#contact_form input[type="tel"]:hover, */
+#contact_form textarea:hover {
+     background: #eee;
+}
+
+#contact_form input[type="submit"]:hover {
+    text-decoration: none;
+    background:#34353a;
+}
+#contact_form {
+    padding: 0 0 1em 0;
+}
+
+/* Contact Form End */
+
+
+
+/* Social Icon Start */
+#social_iphone {
+    display: inline-block;
+}
+#social_android {
+    display: inline-block;
+}
+#social_icon {
+    margin: auto;
+}
+#social_icon a {
+    margin-left: 4%;
+}
+/* Social Icon End */
+
+
+
+/*=============================== Responsive Design for Tablet ===============================*/
+@media screen and (min-width: 651px)  and (max-width:768px){
+
+
+    /* Map Start */
+
+    .map {
+        min-height:450px;
+    }
+
+    .map iframe {
+        min-height:450px;
+    }
+
+    /* Map End */
+
+
+/* Contact Form Start */
+    #contact_form input[type="submit"] {
+        padding: 0.7em 0.7em;
+        font-size: 0.95em;
+        width: 40%;
+        float: right;
+    }
+    #contact_form textarea {
+        height: 225px;
+        margin: 0em 0 0.5em 0;
+  }
+  /* Contact Form ENd */
+
+
+}
+
+
+/*=============================== Responsive Design for mobile in landscape mode ===============================*/
+@media screen and (min-width: 481px)  and (max-width:640px){
+
+    /* Map Start */
+
+    .map {
+        min-height: 400px;
+        /*max-width: 400px;*/
+    }
+    .map iframe {
+        min-height: 400px;
+        /*max-width: 400px;*/
+    }
+    /* Map End */
+
+    /* Contact Form Start */
+    #contact_form input[type="submit"] {
+        padding: 0.7em 0.7em;
+        font-size: 0.95em;
+        width: 50%;
+        float: right;
+    }
+    #contact_form {
+        padding: 1em 0 1em 0;
+    }
+    /* Contact Form ENd */
+
+}
+
+/*=============================== Responsive Design for mobile in portrait mode ===============================*/
+@media screen and (max-width:480px){
+     /* Map Start */
+     .map {
+        min-height:300px;
+    }
+
+    .map iframe {
+        min-height:300px;
+    }
+     /* Map End */
+
+    /* Contact Form Start */
+    #contact_form input[type="submit"] {
+        padding: 0.7em 0.7em;
+        font-size: 0.95em;
+        width: 100%;
+        float: left;
+    }
+    #contact_form textarea {
+        height: 160px;
+        margin: 0em 0 0.5em 0;
+    }
+    /* Contact Form ENd */
+
+}
